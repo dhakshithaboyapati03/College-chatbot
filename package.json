@@ -1,0 +1,9 @@
+{
+  "name": "campus-compass",
+  "private": true,
+  "workspaces": ["frontend"],
+  "scripts": {
+    "dev": "npm.cmd run dev --workspace=campus-compass-frontend",
+    "build": "npm.cmd run build --workspace=campus-compass-frontend"
+  }
+}
