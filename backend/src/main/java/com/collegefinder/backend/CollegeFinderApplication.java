@@ -1,0 +1,9 @@
+package com.collegefinder.backend;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class CollegeFinderApplication {
+  public static void main(String[] args) { SpringApplication.run(CollegeFinderApplication.class, args); }
+}
